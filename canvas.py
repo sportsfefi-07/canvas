@@ -12,9 +12,10 @@ def listen_button():
         lblAnswer.config(text=f"The distance between the two points is {distance}")
     else:
         lblAnswer.config(text=" Error you need to type 4 variables. ")
+
 window = tk.Tk() # create a window
-window.title("Slope intercept")
-window.resizable(True, True)
+window.title("Finding the distance between Two points")
+window.resizable(False, False)
 #Making GUI elements
 lblOne = tk.Label(window, text="x1: ")
 lblTwo = tk.Label(window, text="y1: ")
